@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 :root {
-	--primary-color: #2d2254;
-	--secondary-color: #f5c42f;
+	--primary-color: #14054b;
+	--secondary-color: #11e250;
 	--text-color: #c5bbec;
 }
 
@@ -46,7 +46,7 @@ ul {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 16px;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .btn:hover {
@@ -70,19 +70,27 @@ section {
 /* Section Top */
 .section-top {
 	min-height: 500px;
-	background: url(./img/bg1.png) no-repeat center center/cover;
+	/* background: url(./img/bg1.png) no-repeat center center/cover; */
+}
+
+.section-top img {
+	width: 25%;
+	position: absolute;
+	top: 80px;
+	right: 350px;
 }
 
 .section-top h1 {
 	font-size: 70px;
 	line-height: 1.3;
+	margin-right: 100px;
 }
 
 .section-top .content {
 	position: absolute;
 	top: 100px;
-	right: 70px;
-	width: 50%;
+	left: 70px;
+	width: 55%;
 }
 
 /* Section Stream */
@@ -165,6 +173,10 @@ section {
 
 	.section-top .content {
 		text-align: center;
+	}
+
+	.section-top img {
+		display: none;
 	}
 
 	.section-top .content h1 {
